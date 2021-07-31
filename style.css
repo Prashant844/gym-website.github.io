@@ -1,0 +1,829 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+ 
+#home {
+    background:url("https://bit.ly/2TH8FNN"); 
+     background-image: url(images/wal1.jpg);
+    height: 500px;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    max-height: 520px;
+    box-shadow: 10px 25px 50px grey;
+  
+  }
+  #home h1
+  {
+      font-size: 70px;
+      color: #000;
+      text-align: center;
+      padding-top: 200px;
+      text-shadow: 3px 0px 0px white;
+      
+    }
+    #home h2
+    {
+      font-size: 70px;
+      color: #000;
+      padding-top:0px;
+      text-shadow: 3px 0px 0px white;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color: grey;
+     top: 0px;
+    width: 100%;
+    position: fixed;
+}
+  ul div
+  {
+       color: lime;
+      font-size: 35px;
+      padding-left: 20px;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  ul:hover {
+    background-color:black ;
+  }
+
+  li a:hover {
+    background-color: #0cf;
+    color:#000;
+    
+  }
+  
+#Equipment
+{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+hr
+{
+  border: 1px solid black;
+  margin: 0px 20px;
+}
+.container
+{
+  height: 270px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin: auto; */
+  /* background:linear-gradient(290deg,#fff, #000,#fff); */
+  background: #000;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  justify-content: space-around;
+
+}
+.slide-container
+{
+  display: flex;
+  width:calc( 250px*10);
+  animation: scroll 15s linear infinite;
+}
+@keyframes scroll {
+   0%
+   {
+     transform: translateX(0);
+   }
+
+  100%
+   {
+     transform: translateX(calc(-250px * 9));
+   }
+}
+.slide-image
+{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background:linear-gradient(90deg,#0cf,#0e1538);
+  border-radius: 30px;
+}
+#info
+{
+  text-align: center;
+  font-size: 35px;
+}
+#about
+{
+  width:100%;
+  height:280px;
+  /* margin-bottom: 35px; */
+  font-size: 25px;
+  /* background: linear-gradient(to top, #fff, #8a878b);  */
+  background: grey;
+  padding: 20px;
+  padding-top: 30px;
+  /* margin-left:35px; */
+  color: #000;
+  /* box-shadow: 10px 25px 50px grey; */
+  border-radius: 15px;  
+}
+
+#workout
+{
+  font-size: 35px;
+  margin-top: 20px;
+  text-align: center;
+}
+#workout-content 
+{
+  height: 400px;
+}
+
+#workout-content img
+{
+  float: right;
+  border-radius: 30px;
+  margin-right:30px ;
+  width: 650px;
+  height: 360px;
+  margin-top: 20px;
+}
+#quote
+{
+  float: left;
+  font-size: 4rem;
+  text-align: center;
+  padding-left: 4rem;
+  margin-top: 20px;
+}
+#quote>span
+{
+  color:blue;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 75px;
+  text-align: center;
+}
+#workout1
+{
+ padding: 0px 20px 0px 30px;
+  font-size: 25px;
+}
+#workout1 h2
+{
+ text-align: right;
+ padding-right: 8rem;
+}
+#run
+{
+  float: right;
+  margin-left: 10px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+}
+
+#workout2
+{
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+}
+#jump
+{
+  float: left;
+  border: 1px solid grey;
+  margin-right: 30px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+  /* margin-bottom: 20px; */
+}
+#workout2 h2
+{
+ text-align: left;
+ padding-left: 4rem;
+}
+#workout3
+{
+  
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+  /* clear: both; */
+}
+#push
+{
+  float: right;
+  margin-right: 30px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+  /* margin-bottom: 20px; */
+}
+#workout3 h2
+{
+ text-align: right;
+ padding-right: 10rem;
+}
+#workout4
+{
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+  /* clear: both; */
+}
+#stamina
+{
+  float: left;
+  margin-right: 30px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#workout4 h2
+{
+ text-align: left;
+ padding-left: 3rem;
+}
+#workout5
+{
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+  /* clear: both; */
+}
+#warm
+{
+  float: right;
+  margin-right: 30px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#workout5 h2
+{
+ text-align: right;
+ padding-right: 10rem;
+}
+#workout6
+{
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+  /* clear: both; */
+}
+#breath
+{
+  float: left;
+  margin-right: 30px;
+  box-shadow:10px 20px 50px grey;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#workout6 h2
+{
+ text-align: left;
+ padding-left: 1rem;
+}
+#workout7
+{
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  font-size: 25px;
+  /* clear: both; */
+}
+#loss
+{
+  float: right;
+  margin-right: 30px;
+  margin-left: 30px;
+  box-shadow:10px 20px 50px grey;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+#workout7 h2
+{
+ text-align: right;
+ padding-right: 7rem;
+}
+
+#dietplan
+{
+  width: 100%;
+  height: 500px;
+ margin-top: 30px;
+}
+#dietplan img
+{
+  float: right;
+  border-radius: 30px;
+  margin-right:30px ;
+  height: 350px;
+  width: 650px;
+}
+#diethead
+{
+ text-align: center;
+
+}
+#dietplan cite 
+{
+  float: left;
+  font-size: 3.5rem;
+  padding-left: 65px;
+}
+#dietplan span
+{
+  color:red;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-40%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.1s ease;
+  font-size: 20px;
+  background: black;
+  color: aqua;
+}
+.icon-bar a:hover
+{
+  color: black;
+  background: yellow;
+}
+#diet-chart-images
+{
+  display: flex;
+  grid-gap: 8rem;
+  justify-content: center;
+}
+.overlay-container
+{
+  width: 280px;
+  height: 250px;
+  left: 30px;
+  position: relative;
+  background-position:center;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 25px 25px grey;
+  border-radius: 20px;
+}
+.overlay-image
+{
+  width:280px;
+  height: 250px;
+ /* display: flex; */
+  border-radius: 20px;
+  float: left;
+}
+.overlay
+{
+  border-radius: 20px;
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  background-color:#00b1ba;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+.overlay-container:hover .overlay
+{
+  opacity: 1;
+}
+.overlaytop
+{
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+}
+ .overlay-container:hover .overlaytop
+{
+  height: 100%;
+  width: 100%;
+}
+.text
+{
+  position: absolute;
+  color: black;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  font-size: 20px;   
+  padding-bottom: 10px;
+}
+.text h1
+{
+  text-shadow: 1px 2px yellow;
+}
+
+.text p
+{
+  font-size: 18px;
+  padding-top: 10px;
+  position: absolute;
+}
+#contacthead
+{
+  text-align: center;
+  margin-top: 30px;
+}
+#contact
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+ form
+{
+    background :url("images/contact1.jpg");
+    background-position: center;
+    background-size:cover;
+    width: 94%;
+    height: 650px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+input[type="text"],[type="email"],[type="phone"]
+{
+  width: 68%;
+  float: right;
+  margin: 15px 20px;
+  padding: 12px 20px;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 5px;
+  outline: none;
+}
+label
+{
+  width:25%;
+  margin:  15px 20px;
+  float: left;
+  font-size: 30px;
+   color: white;  
+  padding: 8px 20px;
+} 
+input[type="submit"] {
+  background-color: #00b1ba;
+  color: black;
+  width:25%;
+ margin-top: 0px;
+ margin-right: 30px;
+ padding: 10px 20px;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 20px;
+ float: right;
+ text-align: center;
+}
+input[type="submit"]:hover
+{
+ background: #000;
+ color: #fff;
+}
+textarea
+{
+  resize: vertical;
+  width: 68%;
+  min-height: 130px;
+  height: 220px;
+  max-height:280px ;
+  float: right;
+  margin: 15px 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  background: whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item1 { grid-area: menu-left;}
+.item2 { grid-area: menu-right;}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.item1 img
+{
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+.item4 i
+{
+  padding-top:10px;
+}
+.item2 span
+{
+  color: yellow;
+  font-size: 25px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu-left   menu-right main  main  right'
+    'menu-left   menu-right footer footer footer';
+  grid-gap: 10px;
+  background-color: #000;
+  padding: 2px;
+
+}
+.grid-container > .item3 {font-size: 35px; padding: 30px;}
+.grid-container > .item5 {font-size: 25px;}
+.grid-container > div {
+  /* background-color: #0cf; */
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+.item3 > i> span
+{
+  color: yellow;
+  text-shadow: 8px 8px 10px aqua;
+ }
+.item4
+{
+  padding-top: 20px;
+}
+.item4>a
+{
+  color: white;
+}
+  /* media queries phase start */
+   
+      /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) 
+{
+  li
+  {
+    height: 35px;
+  }
+  #home 
+  {
+    background-position: center;
+  }
+   #home h1
+  {
+    font-size: 40px;
+  }
+  #home img 
+  {
+    display: none;
+  }
+  #home h2
+  {
+    font-size: 35px;
+  } 
+  #Equipment 
+  {
+    font-size: 25px;
+  }
+   .container .slide-container
+  {
+    height: 250px;
+  } 
+  .slide-image img
+  {
+    height: 180px;
+    border-radius: 30%;
+  } 
+  #info
+  {
+    font-size: 25px;
+    text-align: center;
+  }
+  #about
+  {
+    font-size: 17px;
+    margin-bottom: 1.8rem;
+    height: 270px;
+    overflow: scroll;
+  }
+  #workout-section >div 
+  {
+    padding: 20px;
+  }
+  #workout-section >div >h2
+  {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+  }
+  #workout-section >div > img
+  {
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  #workout
+  {
+    font-size: 25px;
+    text-align: center;
+  }
+  #workout-section cite
+  {
+     font-size: 25px;
+    text-align: center;
+  }
+
+  #workout-content img
+  {
+   height: 200px;
+  }
+  #workout-content > cite
+  {
+    font-size: 2rem;
+    margin: 0px;
+    padding-left: 20%;
+    text-align: center;
+  }
+  #quote span
+  {
+    font-size:2.5rem;
+
+  }
+  .icon-bar a
+  {
+    padding:10px 5px 15px 8px ;
+    color: white;
+    background: black;
+  }
+  .icon-bar a:hover
+  {
+    background: yellow;
+    color: black;
+  }
+  #dietplan > h1
+  {
+    font-size: 25px;
+    text-align: center;
+  }
+  #dietplan >img 
+{
+  width: 100%;
+  float: none;
+  height: 200px;
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+}
+#dietplan >cite
+{
+ font-size: 35px;
+ padding: 5px;
+ text-align: center;
+}
+#dietplan cite > span
+{
+  font-size: 30px;
+  text-align: center;
+}
+#diet-chart-images
+{
+   width: 80%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2.5rem;
+}
+.overlay-image
+{
+  padding: 0px;
+  margin: 0px;
+}
+#contacthead
+{
+  font-size: 25px;
+  text-align: center;
+}
+ form 
+{
+ width: 100%;
+ height: 660px;
+ background-position: center;
+ background-size: cover;
+ margin: 0px;
+ padding: 0px;
+}
+.row > label
+{
+  width: 100%;
+  text-align: left;
+  color: black;
+  padding: 10px 0px 15px 35px;
+  margin: 0px;
+  font-size: 25px;
+}
+.row > input[type="text"],input[type="email"],input[type="phone"],input[type="submit"]
+{
+  width: 90%;
+  text-align: left;
+  padding: 10px 20px;
+  margin:  0px 20px;
+}
+#subject
+{
+  width: 90%;
+  height: 50px;
+  text-align: left;
+  padding: 10px 20px;
+  margin: 0px 20px 9px 20px;
+}
+.grid-container
+{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0px;
+}
+.grid-container > div> i >span
+{
+  color: yellow;
+  text-shadow: 2px 9px 10px aqua;
+}
+.grid-container > .item4
+{
+  font-size: 20px;
+  padding: 0px 0px 15px 0px;
+}
+.grid-container > .item4 >a
+{
+ color: aqua; 
+}
+}
+/* Medium devices (landscape tablets, 768px and up)  */
+
+ @media only screen and (min-width: 768px) 
+
+ {
+  #home h1
+  {
+    font-size: 4.5rem;
+  }
+  #home h2
+  {
+    font-size: 3.5rem;
+  } 
+  #about
+  {
+    font-size: 24px;
+    margin-bottom: 1.8rem;
+    height: 250px;
+  }
+ }
+  
+    /* Small devices (portrait tablets and large phones, 600px and up)  */
+   @media only screen and (min-width: 600px) 
+   {
+   } 
+    /* Large devices (laptops/desktops, 992px and up)   */
+    @media only screen and (min-width: 992px) 
+  {
+  }   
+   /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px)
+    {
+  }  
+
+     /* media queries phase close   */
