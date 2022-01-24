@@ -1,1 +1,1 @@
-# gym-website.github.io
+# gym-web-template.github.io
