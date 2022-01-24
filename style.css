@@ -237,7 +237,7 @@ hr
 }
 #stamina
 {
-  float: left;
+  float: right;
   margin-right: 30px;
   box-shadow:10px 20px 50px grey;
   border-radius: 20px;
@@ -245,7 +245,7 @@ hr
 }
 #workout3 h2
 {
- text-align: left;
+ text-align: right;
  padding-left: 3rem;
 }
 #workout4
@@ -257,7 +257,7 @@ hr
 }
 #warm
 {
-  float: right;
+  float: left;
   margin-right: 30px;
   box-shadow:10px 20px 50px grey;
   border-radius: 20px;
@@ -265,7 +265,7 @@ hr
 }
 #workout4 h2
 {
- text-align: right;
+ text-align: left;
  padding-right: 10rem;
 }
 #workout5
@@ -277,7 +277,7 @@ hr
 }
 #breath
 {
-  float: left;
+  float: right;
   margin-right: 30px;
   box-shadow:10px 20px 50px grey;
   border-radius: 20px;
@@ -285,7 +285,7 @@ hr
 }
 #workout5 h2
 {
- text-align: left;
+ text-align: right;
  padding-left: 1rem;
 }
 #workout6
@@ -298,7 +298,7 @@ hr
 }
 #loss
 {
-  float: right;
+  float: left;
   margin-right: 30px;
   margin-left: 30px;
   box-shadow:10px 20px 50px grey;
@@ -307,7 +307,7 @@ hr
 }
 #workout6 h2
 {
- text-align: right;
+ text-align: left;
  padding-right: 7rem;
 }
 
